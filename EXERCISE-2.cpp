@@ -62,7 +62,7 @@ int main() {
  * we can denote them in code instead, so that everytime
  * we hit a multiple of 4, we treat it as a new row.
  * int arr[12] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
- *             ^ Row 1     ^ Row 2     ^ Row 3
+ *                ^ Row 1     ^ Row 2     ^ Row 3
  * 
  * Additionally, saving them would be easy - we just add them
  * sequentially. Accessing them is as easy by multiplying
