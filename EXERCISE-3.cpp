@@ -12,7 +12,18 @@ using namespace std;
 int fiboCustom(int pos, int one, int two);
 
 int main() {
-    cout << fiboCustom(15, 12, 18) << endl;
+
+    int first, second, pos;
+
+    cout << "Enter the first Fibonacci number: ";
+    cin >> first;
+    cout << "Enter the second Fibonacci number: ";
+    cin >> second;
+    cout << "Enter the position of the desired Fibonacci number: ";
+    cin >> pos;
+
+
+    cout << "The Fibonacci number at position " << pos << " is: " << fiboCustom(pos, first, second) << endl;
 
     cout << endl;
 
