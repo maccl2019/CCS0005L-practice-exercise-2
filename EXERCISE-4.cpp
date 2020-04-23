@@ -16,7 +16,7 @@ int main() {
 
     string word;
 
-    cout << "Enter a string: ";
+    cout << "Enter a string (Case-sensitive): ";
     getline(cin, word);
 
     // By default, this is set to true. If the user enters nothing,
